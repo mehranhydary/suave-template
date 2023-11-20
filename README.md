@@ -13,16 +13,16 @@
 
 You can use Forge to deploy contracts to SUAVE.
 
-1. Replace all `SuaveForge.sol` imports with `Suave.sol`
-2. Get Rigil ETH from the faucet
-3. Create a `.env` file in the root of this folder as follows
+1. Replace all `SuaveForge.sol` imports with `Suave.sol`.
+2. Get Rigil ETH from the [faucet](https://faucet.rigil.suave.flashbots.net/).
+3. Create a `.env` file in the root of this folder as follows.
 
 ```
 RPC_URL=https://rpc.rigil.suave.flashbots.net
 PK=ADD_YOUR_PRIVATE_KEY_HERE
 ```
 
-4. Upon saving it, return to your terminal and run `source .env`
+4. Upon saving it, return to your terminal and run `source .env`. There's an example (`.env.example`) that you can copy and use in the root folder of this repository.
 5. Now you can use your `.env` variables in your terminal. Run the following command to deploy your contracts
 
 ```
