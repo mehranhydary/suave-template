@@ -1,13 +1,17 @@
 # suave-template
 
-### **A template for writing SUAVE contracts**
+### **A template for writing SUAVE contracts with Foundry**
 
 [`Use this template`](https://github.com/mehranhydary/suave-template/generate)
 
 1. This template it built using Foundry
-2. Add more notes
+2. The template has `suave-geth` already installed and a few example SUAVE applications
 
 ### **Setting up the repository**
+
+1. Create a template from this repository
+2. Run `forge-install`
+3. Review or remove the examples in this repository and start coding!
 
 ### **Deploying your contract to Rigil Testnet**
 
@@ -26,10 +30,12 @@ PK=ADD_YOUR_PRIVATE_KEY_HERE
 5. Now you can use your `.env` variables in your terminal. Run the following command to deploy your contracts
 
 ```
-  forge create --rpc-url $RPC_URL --legacy --private-key $PK src/OnlyConfidential.sol:OnlyConfidential
+  forge create --rpc-url $RPC_URL --legacy --private-key $PK src/examples/basic/OnlyConfidential.sol:OnlyConfidential
 ```
 
 # Todo:
 
 1. Add instructions on running a local testnet
 2. Add more examples
+3. Anvil x Rigil Testnet - does it work!?
+4. Multi-chain communications
